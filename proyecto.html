@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/40/40451.png">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+
+
+
+   <img class="imagen" src="https://randomuser.me/api/portraits/men/20.jpg" alt="Foto de Logan Dean">
+   
+   
+    <UL>
+      <img class="personal" src="https://cdn-icons-png.flaticon.com/512/2170/2170249.png" style="float: left;" alt="informacion personal">   
+
+  <h1 class="uno">DATOS PERSONALES</h1></div>
+      <div class="dos">  <LI> Nombre :Logan Dean </LI>
+                         <LI>Fecha de nacimiento : 01/04/1988</LI>
+                         <LI>Nacionalidad : Argentina</LI> 
+                         <LI>Direccion : Rolling Green 9473 - Hurlingham</LI>
+                         <LI>Email : logan.dean@gmail.com</LI>
+                         <LI>Telefono : (351)547-5707</LI>
+    
+    </UL>
+</div>
+    
+    <div>
+    <img class="academico" src="https://cdn-icons-png.flaticon.com/512/2942/2942833.png" style="float: left;" alt="">
+    
+      <h2 class="uno"> FORMACION ACADEMICA</H2>
+   <div class="dos">
+    <p><strong> Estudios secundarios completos </strong></p>
+    <LI> Colegio Aleman, Hurlingham,Bs As,Argentina </LI>
+   <p> <strong> Estudios Universitarios completos. </strong></p>
+    <LI>universidad Nacional de Buenos Aires.Carrera de Licenciatura en Economia </li>
+    </div>
+
+
+    <h2 class="uno">SEMINARIOS</H2>
+      <div class="dos"> 
+  <li> Recupero de reintegros de exportacion </li>
+   <li>Programa intensivo de Comercio Internacional </li>
+
+  </div>
+
+
+    
+  <img class="idioma" src="https://cdn-icons-png.flaticon.com/512/3898/3898082.png"style="float: left;" alt="">
+    <h2 class="uno">IDIOMAS</H2>
+      <div class="tres"> 
+    <p><strong>Ingles:Nivel intermedio </strong>.Redaccion fluida.Aprobados los tres niveles universitarios obligatorios</p>
+    <p><strong>Aleman:Nivel basico</strong></p>
+
+  </div>
+
+    
+    
+
+    <h2 class="uno">EXPERIENCIA LABORAL</H2>
+
+      <div class="dos">
+    <li> 2005-2006 Profesor adjunto de la materia “Análisis Economico latinoamericano”, impartida por el profesor Raúl Sevilla en los semestres 2005-2 y 2006-1 en la Facultad de Ciencias Políticas y Sociales de la Universidad Nacional Autónoma de Buenos Aires</li>
+    <li>2007-2009 Investigador en el Instituto de Investigaciones Economicas de la Universidad Nacional Autónoma de Buenos Aires, bajo la supervisión del Dr. Huberto Anaya.</li>
+    <li>2010 al presente Investigador de medio tiempo en el Instituto de Investigaciones monetarias de la Universidad Nacional Autónoma de Argentina</li>
+
+  </div>
+
+
+
+    <p id="skills">Cualidades mias a tener en cuenta</p>
+
+    <button type="button " id="boton">CUALIDADES</button>
+
+
+    <script src="estilo2"></script>
+
+<script>
+const persona = '{"nombre"="Logan Dean", "email"="logan.dean@gmail.com", "nacionalidad"="Argentina",}';
+const obj = JSON.parse(persona);
+console.log(obj);
+document.getElementById("demo").innerHTML =
+ "nombre: " +obj.nombre +
+ "|email: "+obj.email+
+ "|nacionalidad:  "+obj.nacionalidad;
+
+
+ 
+
+
+</script>
+
+
+<form action=""class="formulario">
+  <h1 class="formulario__titulo">contacteme</h1>
+<input type="text"class="formulario__input">
+<label for=""class="formulario__label">nombre</label>
+
+<input type="text"class="formulario__input">
+<label for=""class="formulario__label">area</label>
+
+<input type="text"class="formulario__input">
+<label for=""class="formulario__label">email</label>
+
+<input type="text"class="formulario__input">
+<label for=""class="formulario__label">mensaje</label>
+
+<input type="submit" class="formulario__enviar">
+
+</form>
+</body>
+</html>
